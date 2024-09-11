@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>About</title>
+    <link rel = "stylesheet" href = "about.css">
+</head>
+
+<body>
+    <nav>
+        <div id="logo">
+            <a href="index.html">
+                <img src="svgs/logo.svg">
+            </a>
+        </div>
+        
+        <div id="nav-links">
+            <div id="home">
+                <a href="index.html">Home</a>
+            </div>    
+            <div id="portfolio">
+                <a href="port.html">Portfolio</a>
+            </div> 
+            <div id="contact">
+                <a href="about.html">About</a>
+            </div> 
+        </div>
+
+        <div id="socials">
+            <a href="https://github.com/NatnaelAsrat" target="_blank"><img src="svgs/github button.svg"></a>
+            <a href="https://www.linkedin.com/in/anatnael/" target="_blank"><img src="svgs/linked in button.svg"></a>
+            <a href="https://discord.com/users/1087409603320500254" target="_blank"><img src="svgs/discord.svg"></a>
+            <a href="mailto:a.natnael23@gmail.com" target="_blank"><img src="svgs/mail.svg"></a>
+        </div>
+
+        <div class="dropbtn">
+            <img src="svgs/Menu.svg" alt="Menu">
+        </div>
+        <div class="dropdown-content">
+            <div class="d-links">
+                <a href="index.html">Home</a>
+                <a href="port.html">Portfolio</a>
+                <a href="about.html">About</a>
+            </div>
+            <div class="d-socials">
+                <a href="https://github.com/NatnaelAsrat" target="_blank"><img src="svgs/github button.svg" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/anatnael/" target="_blank"><img src="svgs/linked in button.svg" alt="LinkedIn"></a>
+                <a href="https://discord.com/users/1087409603320500254" target="_blank"><img src="svgs/discord.svg" alt="Discord"></a>
+                <a href="mailto:a.natnael23@gmail.com" target="_blank"><img src="svgs/mail.svg" alt="Email"></a>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id = "imageframe">
+            <img src = "svgs/example.jpg">
+        </section>
+
+        <section id = "aboutme">
+            <section id = "who">
+            <h1>About</h1>
+            <p>
+                I'm Natnael Asrat, a dedicated Full Stack Developer and 
+                UI Designer with a strong focus on Node.js, JavaScript, HTML, and CSS. I'm passionate about creating seamless user 
+                experiences and solving complex problems through clean, efficient code. As I continue to grow in my career, 
+                I'm eager to connect with like-minded individuals and explore new opportunities to collaborate and innovate.
+            </p>
+            
+            <div id="resume">
+                <a href = "svgs/Resume.pdf" download="resume.pdf">
+                    <img src="svgs/Resumebutton.svg" alt="Resume">
+                </a>
+            </div>
+            </section>
+
+            <section id = "contact-box">
+                <h2>Contact</h2>
+                <form action="https://api.web3forms.com/submit" method="POST" id="info">
+
+                    <input type="hidden" name="access_key" value="025bf0d5-0a41-4f07-8f11-0e57a0e2957d">
+                  
+                    <label for="first-name">Full Name</label>
+                    <input type="text" id="full-name" name="full_name" placeholder="Natnael Asrat" required>
+                  
+                    <label for="email">E-mail Address</label>
+                    <input type="email" id="email" name="email" placeholder="a.natnael23@gmail.com" required>
+                  
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message." required></textarea>
+                  
+                 
+                     
+                    <div id="submit" tabindex="0" role="button" aria-pressed="false">
+                        <img src="svgs/sendmessage.svg" alt="Send">
+                    </div>
+                  
+                    
+
+                  
+                  </form>
+            </section>
+        </section>
+
+    </main>
+    <script src = "about.js"></script>
+</body>
+</html>
